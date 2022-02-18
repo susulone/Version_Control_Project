@@ -1,11 +1,11 @@
-VERSION CONTROL TEAM PROJECT
+VERSION CONTROL TEAM PROJECT  
 
-AUTHORS: 
-	Suvi Sulonen <suvi.sulonen@tuni.fi> 
-	Milla Trogen <milla.trogen@tuni.fi> 
-	Susanna Minasyan <susanna.minasyan@tuni.fi> 
+AUTHORS:  
+	Suvi Sulonen <suvi.sulonen@tuni.fi>  
+	Milla Trogen <milla.trogen@tuni.fi>  
+	Susanna Minasyan <susanna.minasyan@tuni.fi>  
 
-DATE: 
+DATE:  
 	2022-02-18 
 
 DESCRIPTION: 
