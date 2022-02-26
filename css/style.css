@@ -130,3 +130,59 @@ footer {
   font-family: var(--font__secondary);
   letter-spacing: 0.05rem;
 }
+
+article {
+  margin: 2%;
+  font-family: var(--font__primary);
+  justify-content: space-between;
+  align-content: center;
+  width: 85%;
+  margin-inline: auto;
+  margin-block: 1rem;
+  padding: 1rem;
+  background-color: var(--color__light);
+  border-radius: 0.5rem;
+  box-shadow: var(--shadow);
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-content: center;
+  width: 85%;
+  margin-inline: auto;
+  margin-block: 1rem;
+  padding: 1rem;
+  background-color: var(--color__light);
+  border-radius: 0.5rem;
+  box-shadow: var(--shadow);
+}
+
+.main_images {
+  flex: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.main_images img {
+  border-radius: 20px;
+}
+
+.main_images a {
+  font-family: Italiana;
+}
+
+/* Responsive layout - makes a two column-layout */
+@media (min-width: 200px) {
+  .main_images {
+    flex: 50%;
+  }
+}
+
+/* Responsive layout - makes the four column-layout  */
+@media (min-width: 600px) {
+  .main_images {
+    flex: 25%;
+  }
+}
