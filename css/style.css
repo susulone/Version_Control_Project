@@ -111,7 +111,9 @@ nav {
 }
 
 .hero_section {
+  display: flex;
   text-align: center;
+  flex-flow: column nowrap;
   width: var(--content__width);
   margin-top: -2rem;
   margin-bottom: 1rem;
@@ -123,27 +125,30 @@ nav {
 }
 
 .hero_section p {
+  align-self: center;
   text-align: left;
+  width: min(70ch, 100%);
   margin-top: 1rem;
-  padding-inline: 2rem;
+  padding-inline: 1rem;
   padding-bottom: 1rem;
 }
 
 .recipe_card {
   display: flex;
-  flex-flow: row nowrap;
-  justify-content: space-between;
+  flex-flow: column nowrap;
+  justify-content: center;
   align-content: center;
   width: var(--content__width);
   margin-inline: auto;
   margin-block: 1rem;
-  padding: 1rem;
+  padding: 1.5rem 0 1rem 0;
   background-color: var(--color__light);
   border-radius: 0.5rem;
   box-shadow: var(--shadow);
 }
 
 .recipe_card__img {
+  align-self: center;
   border-radius: 0.25rem;
   width: max(150px, 250px);
   height: max(105px, 175px);
@@ -151,8 +156,10 @@ nav {
 }
 
 .recipe_card__content {
-  margin-block: auto;
-  width: min(45%, 50rem);
+  margin-inline: auto;
+  padding-inline: 1rem;
+  margin-top: 1rem;
+  width: 90%;
 }
 
 .recipe_card__content p {
@@ -163,6 +170,7 @@ nav {
   align-self: center;
   padding-block: 0.5rem;
   padding-inline: 1rem;
+  margin-block: 1rem;
   border-radius: 0.5rem;
   background-color: var(--color__primary);
   border: none;
@@ -231,5 +239,36 @@ footer {
   .footer__socials_icon:hover {
     transform: scale(0.9);
     filter: drop-shadow(var(--shadow__hover));
+  }
+}
+
+@media (min-width: 1000px) {
+  .hero_section {
+    padding-inline: 2rem;
+  }
+
+  .recipe_card {
+    flex-flow: row nowrap;
+    padding-inline: 2rem;
+  }
+
+  .recipe_card__img {
+    border-radius: 0.25rem;
+    /* width: minmax(25%, 35%); */
+    /* width: max(10%, 250px);
+    height: max(auto, 175px); */
+    object-fit: cover;
+  }
+
+  .recipe_card__content {
+    padding-left: 1rem;
+    margin-block: auto;
+    width: max(25%, 50ch);
+  }
+
+  .button__primary {
+    width: minmax(15%, 25%);
+    padding-block: 0.5rem;
+    padding-inline: 1rem;
   }
 }
