@@ -9,7 +9,8 @@
   --color__bg: #f1ebdf;
   --color__light: #fefefe;
   --color__dark: #514d34;
-  --shadow: 0px 0.25rem 0.25rem rgba(0, 0, 0, 0.1);
+  --shadow: 0px 0.25rem 0.2rem rgba(0, 0, 0, 0.17);
+  --shadow_hover: 0px 0.15rem 0.2rem rgba(0, 0, 0, 0.17);
 }
 
 *,
@@ -51,6 +52,17 @@ p {
   line-height: 1.4;
 }
 
+a:link {
+  text-decoration: none;
+  position: relative;
+  color: var(--color__dark);
+  padding-inline: 0.4rem;
+}
+
+a:visited {
+  color: var(--color__dark);
+}
+
 nav,
 footer {
   display: flex;
@@ -67,8 +79,34 @@ nav {
   margin-bottom: 1rem;
 }
 
-.nav__link {
+.nav__link,
+.nav__link_current {
   margin-inline: 0.5rem;
+  text-decoration: none;
+}
+
+.nav__link:after,
+.nav__link_current:after {
+  content: "";
+  position: absolute;
+  background-color: var(--color__dark);
+  height: 0.125rem;
+  width: 0%;
+  left: 0;
+  bottom: -0.4rem;
+  transition: 0.3s;
+}
+
+.nav__link:hover,
+.nav__link_current:hover {
+  -webkit-text-stroke: 0.05rem;
+}
+
+.nav__link:hover:after,
+.nav__link:active:after,
+.nav__link_current:hover:after,
+.nav__link_current:active:after {
+  width: 100%;
 }
 
 .hero_section {
@@ -119,6 +157,11 @@ nav {
   background-color: var(--color__primary);
   border: none;
   box-shadow: var(--shadow);
+}
+
+.button__primary:hover {
+  transform: scale(0.95);
+  box-shadow: var(--shadow_hover);
 }
 
 footer {
@@ -184,5 +227,13 @@ article {
 @media (min-width: 600px) {
   .main_images {
     flex: 25%;
+  }
+  .footer__socials_icon {
+    filter: drop-shadow(var(--shadow));
+  }
+
+  .footer__socials_icon:hover {
+    transform: scale(0.9);
+    filter: drop-shadow(var(--shadow_hover));
   }
 }
