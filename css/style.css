@@ -30,6 +30,7 @@ body {
 h1 {
   font-family: var(--font__tertiary);
   font-size: 4rem;
+  line-height: 1;
   text-align: center;
   margin-top: 3rem;
   color: var(--color__secondary);
@@ -75,6 +76,7 @@ footer {
   letter-spacing: 0.05rem;
 }
 
+/* NAVIGATION */
 nav {
   justify-content: center;
   margin-bottom: 1rem;
@@ -110,6 +112,7 @@ nav {
   width: 100%;
 }
 
+/* HERO SECTION */
 .hero_section {
   display: flex;
   text-align: center;
@@ -133,6 +136,7 @@ nav {
   padding-bottom: 1rem;
 }
 
+/* RECIPE CARDS */
 .recipe_card {
   display: flex;
   flex-flow: column nowrap;
@@ -166,6 +170,7 @@ nav {
   margin-top: 0.5rem;
 }
 
+/* PRIMARY BUTTON */
 .button__primary {
   align-self: center;
   padding-block: 0.5rem;
@@ -181,7 +186,7 @@ nav {
   transform: scale(0.95);
   box-shadow: var(--shadow__hover);
 }
-
+/* FOOTER SECTION */
 footer {
   justify-content: space-around;
   margin-top: 1rem;
@@ -192,6 +197,60 @@ footer {
   letter-spacing: 0.05rem;
 }
 
+<<<<<<< HEAD
+=======
+.footer__socials_icon {
+  filter: drop-shadow(var(--shadow));
+}
+
+.footer__socials_icon:hover {
+  transform: scale(0.9);
+  filter: drop-shadow(var(--shadow__hover));
+}
+/* MAIN PAGE */
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-content: center;
+  width: 85%;
+  margin-inline: auto;
+  margin-block: 1rem;
+  padding: 1rem;
+  background-color: var(--color__light);
+  border-radius: 0.5rem;
+  box-shadow: var(--shadow);
+}
+
+.main_images {
+  flex: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.main_images img {
+  border-radius: 20px;
+}
+
+.main_images a {
+  font-family: Italiana;
+}
+
+/* Responsive layout - makes a two column-layout */
+@media (min-width: 200px) {
+  .main_images {
+    flex: 50%;
+  }
+}
+
+/* Responsive layout - makes the four column-layout  */
+@media (min-width: 600px) {
+  .main_images {
+    flex: 25%;
+  }
+}
+
+>>>>>>> b62f541 (style.css: Add comments to mark sections. Edit H1, line-height.)
 @media (min-width: 1000px) {
   .hero_section {
     padding-inline: 2rem;
