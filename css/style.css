@@ -118,7 +118,7 @@ nav {
   text-align: center;
   flex-flow: column nowrap;
   width: var(--content__width);
-  margin-top: -2rem;
+  margin-top: -1.6rem;
   margin-bottom: 1rem;
   margin-inline: auto;
   padding: 1rem;
@@ -154,8 +154,8 @@ nav {
 .recipe_card__img {
   align-self: center;
   border-radius: 0.25rem;
-  width: max(150px, 250px);
-  height: max(105px, 175px);
+  width: max(150px, 350px);
+  height: max(105px, 245px);
   object-fit: cover;
 }
 
@@ -186,6 +186,7 @@ nav {
   transform: scale(0.95);
   box-shadow: var(--shadow__hover);
 }
+
 /* FOOTER SECTION */
 footer {
   justify-content: space-around;
@@ -196,6 +197,10 @@ footer {
   font-family: var(--font__secondary);
   letter-spacing: 0.05rem;
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> df3e863 (style.css: (.recipe_card__img): Edit max image size.)
 .footer__socials_icon {
   filter: drop-shadow(var(--shadow));
 }
@@ -204,7 +209,54 @@ footer {
   transform: scale(0.9);
   filter: drop-shadow(var(--shadow__hover));
 }
+<<<<<<< HEAD
 
+=======
+
+/* MAIN PAGE */
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-content: center;
+  width: 85%;
+  margin-inline: auto;
+  margin-block: 1rem;
+  padding: 1rem;
+  background-color: var(--color__light);
+  border-radius: 0.5rem;
+  box-shadow: var(--shadow);
+}
+
+.main_images {
+  flex: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.main_images img {
+  border-radius: 20px;
+}
+
+.main_images a {
+  font-family: var(--font__secondary);
+}
+
+/* Responsive layout - makes a two column-layout */
+@media (min-width: 200px) {
+  .main_images {
+    flex: 50%;
+  }
+}
+
+/* Responsive layout - makes the four column-layout  */
+@media (min-width: 600px) {
+  .main_images {
+    flex: 25%;
+  }
+}
+
+>>>>>>> df3e863 (style.css: (.recipe_card__img): Edit max image size.)
 @media (min-width: 1000px) {
   .hero_section {
     padding-inline: 2rem;
@@ -217,7 +269,7 @@ footer {
 
   .recipe_card__img {
     border-radius: 0.25rem;
-    /* width: minmax(25%, 35%); */
+    width: minmax(25%, 45%);
     /* width: max(10%, 250px);
     height: max(auto, 175px); */
     object-fit: cover;
