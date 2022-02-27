@@ -234,13 +234,12 @@ footer {
   .recipe_card__img_landscape {
     border-radius: 0.25rem;
     /* width: clamp(30%, 39%, 50%); */
-    width: 39%;
+    width: 43%;
   }
 
   .recipe_card__content {
-    padding-left: 1rem;
     margin-block: auto;
-    width: max(25%, 50ch);
+    width: max(25%, 40ch);
   }
 
   .button__primary {
