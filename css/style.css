@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 @import url("https://fonts.googleapis.com/css2?family=Aclonica&family=Italiana&family=Lato:ital,wght@0,300;1,300&display=swap");
 
 :root {
@@ -247,4 +248,12 @@ footer {
     padding-block: 0.5rem;
     padding-inline: 1rem;
   }
+}
+
+
+img {
+	max-width: 80%;
+	border-width: 2px;
+	margin-top: 20px;
+	margin-left: 20px;
 }
