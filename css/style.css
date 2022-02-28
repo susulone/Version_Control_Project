@@ -197,6 +197,21 @@ nav {
   box-shadow: var(--shadow__hover);
 }
 
+.link_button__primary {
+  align-self: center;
+  padding-block: 0.5rem;
+  padding-inline: 1rem;
+  margin-block: 1rem;
+  border-radius: 0.5rem;
+  background-color: var(--color__primary);
+  border: none;
+  box-shadow: var(--shadow);
+}
+
+.link_button__primary:hover {
+  transform: scale(0.95);
+  box-shadow: var(--shadow__hover);
+}
 /* FOOTER SECTION */
 footer {
   justify-content: space-around;
