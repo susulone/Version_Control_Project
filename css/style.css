@@ -1,4 +1,3 @@
-
 @import url("https://fonts.googleapis.com/css2?family=Aclonica&family=Italiana&family=Lato:ital,wght@0,300;1,300&display=swap");
 
 :root {
@@ -76,6 +75,13 @@ footer {
   font-family: var(--font__secondary);
   letter-spacing: 0.05rem;
 }
+
+/* img {
+  max-width: 80%;
+  border-width: 2px;
+  margin-top: 20px;
+  margin-left: 20px;
+} */
 
 /* NAVIGATION */
 nav {
@@ -184,12 +190,16 @@ nav {
 .button__primary {
   align-self: center;
   padding-block: 0.5rem;
-  padding-inline: 1rem;
   margin-block: 1rem;
   border-radius: 0.5rem;
   background-color: var(--color__primary);
   border: none;
   box-shadow: var(--shadow);
+}
+
+.button__primary h3 {
+  font-size: 1rem;
+  padding-inline: 1rem;
 }
 
 .button__primary:hover {
@@ -200,7 +210,7 @@ nav {
 /* FOOTER SECTION */
 footer {
   justify-content: space-around;
-  margin-top: 1rem;
+  margin-top: 5rem;
 }
 
 .footer__copyright p {
@@ -249,11 +259,3 @@ footer {
     padding-inline: 1rem;
   }
 }
-img {
-	max-width: 80%;
-	border-width: 2px;
-	margin-top: 20px;
-	margin-left: 20px;
-}
-
-
