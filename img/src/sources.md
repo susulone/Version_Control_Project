@@ -31,8 +31,16 @@ LUNCH category and recipes
 
 DINNER category and recipes
 
+https://unsplash.com/photos/kPLccIMtS8E deryn-macey-kPLccIMtS8E-unsplash.jpg Deryn Macey
+
+https://unsplash.com/photos/PKfz98depf0 phillip-goldsberry-PKfz98depf0-unsplash.jpg Philip Goldsberry
+
 DESSERT category and recipes
 
 https://www.istockphoto.com/fi/valokuva/kakku-kaakaojauheella-gm466766792-59953428
 
 https://www.istockphoto.com/fi/valokuva/klassista-amerikkalaista-omenapiirakkaa-gm512602151-46971470
+
+https://unsplash.com/photos/Ao09kk2ovB0 meritt-thomas-Ao09kk2ovB0-unsplash.jpg Meritt Thomas
+
+https://unsplash.com/photos/9J7sHieVFi0 lindsay-cotter-9J7sHieVFi0-unsplash.jpg Lindsay Cotter
