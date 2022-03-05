@@ -1,39 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Delicous Recipes</title>
+    <title>Mud Cake</title>
     <link rel="stylesheet" href="/css/style.css" />
   </head>
   <body>
     <nav>
-      <a href="#" class="nav__link_current">home</a>
+      <a href="/index.html" class="nav__link">home</a>
       <a href="/pages/breakfasts/index.html" class="nav__link">breakfast</a>
       <a href="/pages/lunches/index.html" class="nav__link">lunch</a>
       <a href="/pages/dinners/index.html" class="nav__link">dinner</a>
       <a href="/pages/desserts/index.html" class="nav__link">dessert</a>
     </nav>
-
     <header>
       <h1>let's cook</h1>
-      <div class="hero_section">
-        <h2>&#150;Mud Cake&#150;</h2>
-        <p>Glutein free</p>
+      <div class="hero_section hero_section__recipe">
+        <h2>&#150;mud cake&#150;</h2>
+        <ul>
+          <li>12 servings</li>
+        </ul>
+        <p>Add mud cake recipe description here...</p>
       </div>
     </header>
+
     <main>
       <section aria-labelledby="mud_cake" class="recipe_card">
         <img
           src="/img/lindsay-cotter-9J7sHieVFi0-unsplash.jpg"
-          class="recipe_card__img"
+          class="recipe_page__img"
           alt="mud cake image"
         />
-        <div class="recipe_card__content">
+        <div class="recipe_card__content recipe_page__content">
           <h3 id="mud_cake_ing">Ingredients</h3>
           <ul>
             <li>200 g butter *)</li>
@@ -45,7 +44,7 @@
             <li>4 eggs</li>
           </ul>
           <h3 id="mud_cake">Instructions</h3>
-          <ul>
+          <ol>
             <li>Pre heat Owen to 200 Celsius</li>
             <li>
               Measure butter and chopped dark chocolate to a kettle, melt with
@@ -61,7 +60,7 @@
               Bake about 20 minutes. Surface should look baked, inside should be
               a little sticky.
             </li>
-          </ul>
+          </ol>
         </div>
       </section>
     </main>
