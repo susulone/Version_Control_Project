@@ -321,13 +321,12 @@ footer {
 
   .recipe_page__img {
     max-width: 60%;
-    border-radius: 0.25rem;
     width: minmax(25%, 35%);
     align-self: flex-start;
-    padding-top: 2rem;
+    margin-top: 2rem;
   }
 
   .recipe_page__content {
-    padding-top: 2rem;
+    margin-top: 2rem;
   }
 }
