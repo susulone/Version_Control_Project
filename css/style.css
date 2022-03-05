@@ -296,6 +296,7 @@ footer {
   .recipe_card {
     flex-flow: row nowrap;
     padding-inline: 2rem;
+    padding-top: 2rem;
   }
 
   .recipe_card__img {
@@ -323,5 +324,6 @@ footer {
     max-width: 60%;
     border-radius: 0.25rem;
     width: minmax(25%, 35%);
+    align-self: flex-start;
   }
 }
