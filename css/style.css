@@ -290,18 +290,18 @@ footer {
   .recipe_card__img {
     border-radius: 0.25rem;
     width: 40%;
+    margin-block: 0.6rem;
   }
 
   .recipe_card__img_landscape {
     border-radius: 0.25rem;
     width: 40%;
-
+    margin-block: 0.6rem;
   }
 
   .recipe_card__content {
     margin-block: auto;
     width: max(30%, 40ch);
-
   }
 
   .button__primary {
