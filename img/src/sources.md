@@ -25,7 +25,7 @@ scrambled-egg-tomato.jpg
 
 https://unsplash.com/photos/QiN3ZBskOBY rasberry-pear-oat-soak.jpg Anastasia Eremina
 
-https://unsplash.com/photos/yIE7pZUmT_s yulia-khlebnikova-yIE7pZUmT_s-unsplash.jpg Yulia Khlebnikova
+https://unsplash.com/photos/yIE7pZUmT_s fresh-strawberry-smoothie.jpg Yulia Khlebnikova
 
 LUNCH category and recipes
 
@@ -48,10 +48,14 @@ https://unsplash.com/photos/PKfz98depf0 phillip-goldsberry-PKfz98depf0-unsplash.
 
 DESSERT category and recipes
 
-https://www.istockphoto.com/fi/valokuva/kakku-kaakaojauheella-gm466766792-59953428
+https://www.istockphoto.com/fi/valokuva/kakku-kaakaojauheella-gm466766792-59953428 zebra-cake.jpg
 
-https://www.istockphoto.com/fi/valokuva/klassista-amerikkalaista-omenapiirakkaa-gm512602151-46971470
+https://www.istockphoto.com/fi/valokuva/klassista-amerikkalaista-omenapiirakkaa-gm512602151-46971470 apple-pie.jpg
 
 https://unsplash.com/photos/Ao09kk2ovB0 meritt-thomas-Ao09kk2ovB0-unsplash.jpg Meritt Thomas
 
 https://unsplash.com/photos/9J7sHieVFi0 lindsay-cotter-9J7sHieVFi0-unsplash.jpg Lindsay Cotter
+
+https://unsplash.com/photos/bDJvFx_iCRQ dilyara-garifullina-bDJvFx_iCRQ-unsplash.jpg
+
+https://unsplash.com/photos/NJTN-oYIIY4 svitlana-NJTN-oYIIY4-unsplash.jpg
