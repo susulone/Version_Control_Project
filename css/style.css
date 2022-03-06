@@ -179,6 +179,10 @@ nav {
   padding-inline: 1rem;
 }
 
+.recipe_card__heading {
+  margin-inline: 3.5rem;
+  line-height: 1.1;
+}
 /* PRIMARY BUTTON */
 .button__primary {
   align-self: center;
@@ -298,6 +302,10 @@ footer {
     padding-inline: 2rem;
   }
 
+  .recipe_card__heading {
+    margin-inline: 1rem;
+  }
+
   .recipe_card__img {
     border-radius: 0.25rem;
     width: 40%;
@@ -325,7 +333,7 @@ footer {
     max-width: 60%;
     width: minmax(25%, 35%);
     align-self: flex-start;
-    margin-top: 2rem;
+    margin-block: 2rem;
   }
 
   .recipe_page__content {
