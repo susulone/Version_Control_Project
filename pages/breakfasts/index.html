@@ -11,9 +11,9 @@
     <nav>
       <a href="/index.html" class="nav__link">home</a>
       <a href="#" class="nav__link_current">breakfast</a>
-      <a href="/lunches/index.html" class="nav__link">lunch</a>
-      <a href="/dinners/index.html" class="nav__link">dinner</a>
-      <a href="/desserts/index.html" class="nav__link">dessert</a>
+      <a href="/pages/lunches/index.html" class="nav__link">lunch</a>
+      <a href="/pages/dinners/index.html" class="nav__link">dinner</a>
+      <a href="/pages/desserts/index.html" class="nav__link">dessert</a>
     </nav>
     <header>
       <h1>let's eat</h1>
@@ -33,7 +33,7 @@
         <img
           src="/img/layered-yogurt-closeup.jpg"
           class="recipe_card__img"
-          alt=""
+          alt="Woman's hand holding a glass, filled with alternating layers of yogurt and muesli and topped with blueberries, against a blurry background."
         />
         <div class="recipe_card__content">
           <h3 id="yogurt-jars">Layered Yogurt Jars</h3>
@@ -42,7 +42,10 @@
             weekend morning.
           </p>
         </div>
-        <button class="button__primary">
+        <button
+          class="button__primary"
+          onclick="window.location='/pages/breakfasts/layered-yogurt-jars.html';"
+        >
           <h3>Let's make it</h3>
         </button>
       </section>
@@ -51,7 +54,7 @@
         <img
           src="/img/avocado-toast-closeup.jpg"
           class="recipe_card__img"
-          alt=""
+          alt="A plate of halved toasted sandwich with a cup of cappuchino, glass of water and a ceramic vase with yellow and white flowers on the background."
         />
         <div class="recipe_card__content">
           <h3 id="avocago-toast">Avocado and Spinach Toasts</h3>
@@ -60,13 +63,20 @@
             is to make this healthy avocado spread in advance.
           </p>
         </div>
-        <button class="button__primary">
+        <button
+          class="button__primary"
+          onclick="window.location='/pages/breakfasts/avocado-spinach-toast.html';"
+        >
           <h3>Let's make it</h3>
         </button>
       </section>
 
       <section aria-labelledby="pancakes" class="recipe_card">
-        <img src="/img/pancake-american.jpg" class="recipe_card__img" alt="" />
+        <img
+          src="/img/pancake-american.jpg"
+          class="recipe_card__img"
+          alt="A tall stack of pancakes on a plate against a blurred background."
+        />
         <div class="recipe_card__content">
           <h3 id="pancakes">American-style Pancakes</h3>
           <p>
@@ -74,7 +84,10 @@
             tastes of the whole family.
           </p>
         </div>
-        <button class="button__primary">
+        <button
+          class="button__primary"
+          onclick="window.location='/pages/breakfasts/pancakes-american.html';"
+        >
           <h3>Let's make it</h3>
         </button>
       </section>
@@ -83,7 +96,7 @@
         <img
           src="/img/scrambled-egg-tomato.jpg"
           class="recipe_card__img_landscape"
-          alt=""
+          alt="A skilled filled with food on top of a wooden cutting board."
         />
         <div class="recipe_card__content">
           <h3 id="scrambled_eggs">Scrambled Eggs and Tomatoes</h3>
@@ -92,16 +105,19 @@
             ahead.
           </p>
         </div>
-        <button class="button__primary">
+        <button
+          class="button__primary"
+          onclick="window.location='/pages/breakfasts/scrambled-egg-tomato.html';"
+        >
           <h3>Let's make it</h3>
         </button>
       </section>
 
       <section aria-labelledby="rasberry-pear-oat-soak" class="recipe_card">
         <img
-          src="../../img/rasberry-pear-oat-soak.jpg"
+          src="/img/rasberry-pear-oat-soak.jpg"
           class="recipe_card__img"
-          alt=""
+          alt="A closeup of a bowl filled with oats on the left, frech rasberries on the middle and pieces of pear on the right."
         />
         <div class="recipe_card__content">
           <h3 id="rasberry-pear-oat-soak">Fresh Rasberry Pear Oat Soak</h3>
@@ -110,16 +126,19 @@
             they can be made ready on the previous evening.
           </p>
         </div>
-        <button class="button__primary">
+        <button
+          class="button__primary"
+          onclick="window.location='/pages/breakfasts/fresh-oat-soak.html';"
+        >
           <h3>Let's make it</h3>
         </button>
       </section>
 
       <section aria-labelledby="fresh-strawberry-smoothie" class="recipe_card">
         <img
-          src="../../img/fresh-strawberry-smoothie.jpg"
+          src="/img/fresh-strawberry-smoothie.jpg"
           class="recipe_card__img"
-          alt=""
+          alt="Two mason jars filled with red smoothie garnished with fresh mint leaves and stainless steel straws."
         />
         <div class="recipe_card__content">
           <h3 id="fresh-strawberry-smoothie">Fresh Strawberry Smoothie</h3>
@@ -128,7 +147,10 @@
             for you!
           </p>
         </div>
-        <button class="button__primary">
+        <button
+          class="button__primary"
+          onclick="window.location='/pages/breakfasts/fresh-smoothie.html';"
+        >
           <h3>Let's make it</h3>
         </button>
       </section>
@@ -137,19 +159,19 @@
       <div class="footer__copyright">
         <p>
           Copyright &copy;
-          <script src="../../js/copyright.js"></script>
+          <script src="/js/copyright.js"></script>
         </p>
       </div>
       <div class="footer__socials">
         <a href="https://www.instagram.com/"
           ><img
-            src="../../img/instagram_logo.svg"
+            src="/img/instagram_logo.svg"
             class="footer__socials_icon"
             alt="Instagram"
         /></a>
         <a href="https://www.pinterest.com/"
           ><img
-            src="../../img/pinterest_logo.svg"
+            src="/img/pinterest_logo.svg"
             class="footer__socials_icon"
             alt="Pinterest"
         /></a>
