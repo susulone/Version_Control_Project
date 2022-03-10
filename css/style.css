@@ -11,7 +11,7 @@
   --color__dark: #514d34;
   --shadow: 0px 0.25rem 0.2rem rgba(0, 0, 0, 0.17);
   --shadow__hover: 0px 0.15rem 0.2rem rgba(0, 0, 0, 0.17);
-  --content__width: max(400px, 60%);
+  --content__width: clamp(350px, 60%, 70%);
 }
 
 *,
@@ -25,6 +25,7 @@
 body {
   background-color: var(--color__bg);
   color: var(--color__dark);
+  width: 100vw;
 }
 
 h1 {
@@ -69,7 +70,6 @@ nav,
 footer {
   display: flex;
   flex-flow: row nowrap;
-  width: 100%;
   padding-block: 1.5rem;
   background-color: var(--color__primary);
   font-family: var(--font__secondary);
@@ -80,12 +80,14 @@ footer {
 nav {
   justify-content: center;
   margin-bottom: 1rem;
+  padding-inline: calc(100vw - 1fr);
 }
 
 .nav__link,
 .nav__link_current {
-  margin-inline: 0.5rem;
+  margin-inline: minmax(0.25rem 0.5rem);
   text-decoration: none;
+  color: var(--color__dark);
 }
 
 .nav__link:after,
@@ -154,16 +156,16 @@ nav {
 .recipe_card__img {
   align-self: center;
   border-radius: 0.25rem;
-  width: max(150px, 350px);
-  height: max(105px, 245px);
+  width: 90%;
+  height: 245px;
   object-fit: cover;
 }
 
 .recipe_card__img_landscape {
   align-self: center;
   border-radius: 0.25rem;
-  width: max(150px, 350px);
-  height: max(105px, 245px);
+  width: 90%;
+  height: 245px;
   object-fit: cover;
 }
 
@@ -193,6 +195,7 @@ nav {
   border-radius: 0.5rem;
   background-color: var(--color__primary);
   border: none;
+  color: var(--color__dark);
   box-shadow: var(--shadow);
 }
 
